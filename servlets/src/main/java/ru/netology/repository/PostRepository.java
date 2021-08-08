@@ -5,7 +5,6 @@ import ru.netology.model.Post;
 
 import java.util.*;
 
-// Stub
 public class PostRepository {
   private static Map<Long, Post> db = new HashMap<>();
   private static long allPostsCounter = 0;
